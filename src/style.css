@@ -1,11 +1,77 @@
-.footer {
-  font-family: monospace;
-  color: grey;
-  font-size: 16px;
+body {
+  background-color: #416788;
+}
+h1 {
+  font-family: "Arimo", sans-serif;
   text-align: center;
-  max-width: 600px;
+  font-size: 50px;
+  line-height: 40px;
 }
 a {
-  color: blue;
+  color: #ffb85c;
   text-decoration: none;
+}
+
+hr {
+  background-color: #416788;
+  height: 2px;
+  border-radius: 10px;
+}
+.time {
+  font-family: "Assistant", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+.city {
+  font-family: "Arimo", sans-serif;
+  font-weight: lighter;
+  font-size: 32px;
+}
+.date {
+  font-family: "Arimo", sans-serif;
+  color: #ffb85c;
+  font-size: 18px;
+  margin-top: -16px;
+}
+
+.select {
+  width: 100%;
+  border-radius: 10px;
+  height: 52px;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Arimo", sans-serif;
+  border-color: #e0e0e2;
+  background-color: #e0e0e2;
+  color: black;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+  max-height: fit-content;
+  background-color: white;
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  border: none;
+  padding: 32px 40px;
+}
+.city-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -24px;
+  margin-bottom: -20px;
+}
+.footer {
+  font-family: monospace;
+  color: #e0e0e2;
+  font-size: 16px;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  max-width: 500px;
 }

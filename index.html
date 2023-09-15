@@ -4,32 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="src/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Assistant:wght@600&family=Cabin:ital,wght@0,400;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
     <div class="container">
       <h1>World Clock</h1>
       <select class="select" id="cities">
+        <option value="">Select a city</option>
         <option value="london">London</option>
         <option value="newyork">New York</option>
         <option value="tokyo">Tokyo</option>
         <option value="sydney">Sydney</option>
       </select>
 
-      <div class="city">
-        <h2>City name</h2>
-        <div class="date">Date</div>
-        <div class="class">Time</div>
+      <div class="city-card">
+        <div>
+          <h2 class="city">City name</h2>
+          <p class="date">Date</p>
+        </div>
+        <div>
+          <h3 class="time">10:30:80</h3>
+        </div>
       </div>
-      <div class="city">
-        <h2>City name</h2>
-        <div class="date">Date</div>
-        <div class="class">Time</div>
+      <hr />
+      <div class="city-card">
+        <div>
+          <h2 class="city">City name</h2>
+          <p class="date">Date</p>
+        </div>
+        <div>
+          <h3 class="time">10:30:80</h3>
+        </div>
       </div>
     </div>
-
-
-
 
     <p class="footer">
       This project is coded by
