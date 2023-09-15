@@ -56,7 +56,7 @@ small {
   margin: 80px auto;
   max-width: 500px;
   max-height: fit-content;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.35);
   box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
   backdrop-filter: blur(8px);
   border-radius: 16px;
