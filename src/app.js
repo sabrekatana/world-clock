@@ -22,3 +22,4 @@ function updateCity(event) {
 
 let selectionElement = document.querySelector("#cities");
 selectionElement.addEventListener("change", updateCity);
+setInterval(updateCity, 1000);
