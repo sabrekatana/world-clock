@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Assistant:wght@600&family=Cabin:ital,wght@0,400;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -18,28 +20,28 @@
       <select class="select" id="cities">
         <option value="">Select a city</option>
         <option value="london">London</option>
-        <option value="newyork">New York</option>
+        <option value="losangeles">Los Angeles</option>
         <option value="tokyo">Tokyo</option>
         <option value="sydney">Sydney</option>
       </select>
 
-      <div class="city-card">
+      <div class="city-card" id="losangeles">
         <div>
-          <h2 class="city">City name</h2>
-          <p class="date">Date</p>
+          <h2 class="city" id="city">Los Angeles</h2>
+          <p class="date" id="date"></p>
         </div>
         <div>
-          <h3 class="time">10:30:80<small>AM</small></h3>
+          <h3 class="time" id="time"></h3>
         </div>
       </div>
       <hr />
-      <div class="city-card">
+      <div class="city-card" id="paris">
         <div>
-          <h2 class="city">City name</h2>
-          <p class="date">Date</p>
+          <h2 class="city">Paris</h2>
+          <p class="date"></p>
         </div>
         <div>
-          <h3 class="time">10:30:80<small>AM</small></h3>
+          <h3 class="time"></h3>
         </div>
       </div>
     </div>
